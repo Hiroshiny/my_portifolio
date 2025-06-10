@@ -1,33 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {/* Cabeçalho com foto de perfil */}
+      <header className="header">
+        <div className="profile-container">
+          {/* Substitua 'profile.jpg' pelo caminho da sua imagem */}
+          <img src="./assets/c:\Users\GUILHERMEHENRIQUECOS\Pictures\Imagem do WhatsApp de 2025-06-10 à(s) 18.05.46_1597b21e.jpg" alt="Foto de perfil" className="profile-image" />
+          <h1>Guilherme Henrique</h1>
+          <p>Estudante de Desenvolvimento de Sistemas</p>
+        </div>
+      </header>
 
       {/* Seção Sobre Mim */}
       <section className="about-me">
@@ -42,11 +26,14 @@ function App() {
         </p>
       </section>
 
-      {/* Seção Foto de Perfil */}
-      <section className="profile-photo">
-        <h2>Minha Foto</h2>
-        {/* Substitua 'profile.jpg' pelo caminho da sua imagem */}
-        <img src="./assets/profile.jpg" alt="Foto de perfil" className="profile-image" />
+      {/* Seção Projetos */}
+      <section className="projects">
+        <h2>Meus Projetos</h2>
+        <ul>
+          <li>Projeto 1: Sistema de Gerenciamento de Tarefas</li>
+          <li>Projeto 2: Site de Portfólio Responsivo</li>
+          <li>Projeto 3: Aplicação Web com React e API</li>
+        </ul>
       </section>
 
       {/* Seção Conquistas */}
@@ -57,6 +44,14 @@ function App() {
           <img src="./assets/certificado1.jpg" alt="Certificado de Auxiliar Técnico" className="achievement-image" />
           <img src="./assets/certificado2.jpg" alt="Outro Certificado" className="achievement-image" />
         </div>
+      </section>
+
+      {/* Seção Contato */}
+      <section className="contact">
+        <h2>Contato</h2>
+        <p>Email: guilhermehenrique@example.com</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/guilhermehenrique" target="_blank">linkedin.com/in/guilhermehenrique</a></p>
+        <p>GitHub: <a href="https://github.com/guilhermehenrique" target="_blank">github.com/guilhermehenrique</a></p>
       </section>
     </>
   )
