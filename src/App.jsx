@@ -1,4 +1,6 @@
 import './App.css'
+import './components/lindão.jpg'
+
 
 function App() {
   return (
@@ -7,7 +9,7 @@ function App() {
       <header className="header">
         <div className="profile-container">
           {/* Substitua 'profile.jpg' pelo caminho correto da sua imagem no diretório 'src/assets' */}
-          <img src="./assets/profile.jpg" alt="Foto de perfil" className="profile-image" />
+          <img src="./components/lindão.jpg" alt="Foto de perfil" className="profile-image" />
           <h1>Guilherme Henrique</h1>
           <p>Estudante de Desenvolvimento de Sistemas</p>
         </div>
