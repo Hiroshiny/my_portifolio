@@ -49,9 +49,9 @@ function App() {
       {/* Seção Contato */}
       <section className="contact">
         <h2>Contato</h2>
-        <p>Email: guilhermehenrique@example.com</p>
+        <p>Email: guilhermehcma@gmail.com</p>
         <p>LinkedIn: <a href="https://linkedin.com/in/guilhermehenrique" target="_blank">linkedin.com/in/guilhermehenrique</a></p>
-        <p>GitHub: <a href="https://github.com/guilhermehenrique" target="_blank">github.com/guilhermehenrique</a></p>
+        <p>GitHub: <a href="https://github.com/Hiroshiny" target="_blank">github.com/Hiroshiny</a></p>
       </section>
     </>
   )
