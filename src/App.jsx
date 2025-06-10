@@ -6,8 +6,8 @@ function App() {
       {/* Cabeçalho com foto de perfil */}
       <header className="header">
         <div className="profile-container">
-          {/* Substitua 'profile.jpg' pelo caminho da sua imagem */}
-          <img src="./assets/c:\Users\GUILHERMEHENRIQUECOS\Pictures\Imagem do WhatsApp de 2025-06-10 à(s) 18.05.46_1597b21e.jpg" alt="Foto de perfil" className="profile-image" />
+          {/* Substitua 'profile.jpg' pelo caminho correto da sua imagem no diretório 'src/assets' */}
+          <img src="./assets/profile.jpg" alt="Foto de perfil" className="profile-image" />
           <h1>Guilherme Henrique</h1>
           <p>Estudante de Desenvolvimento de Sistemas</p>
         </div>
